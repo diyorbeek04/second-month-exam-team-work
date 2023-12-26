@@ -1,6 +1,5 @@
 .hero__body ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .hero__body ul li {
@@ -62,7 +61,6 @@
   height: 408px;
 }
 .hero__design .hero__design--right--ul--a--h2 {
-  background-color: black;
   color: #FFF;
   margin-top: 100px;
   text-align: center;
@@ -131,13 +129,18 @@
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-with: 550) {
+  .hero__body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .hero {
   width: 1111px;
   height: 252px;
   flex-shrink: 0;
   border-radius: 15px;
   background: #E7816B;
-  display: flex;
   align-items: center;
   margin-left: 100px;
   margin-top: 100px;
@@ -163,9 +166,14 @@
   line-height: 26px;
 }
 
-@media only screen and (max-with: 1234) {
+@media only screen and (max-with: 1264) {
   .hero {
-    width: 95%;
+    width: 45%;
+  }
+}
+@media only screen and (max-with: 1230) {
+  .hero {
+    width: 35%;
   }
 }
 .hero__body {
@@ -574,7 +582,6 @@
   flex-shrink: 0;
   border-radius: 15px;
   background: #E7816B;
-  display: flex;
   align-items: center;
   margin-left: 100px;
   margin-top: 100px;
@@ -600,9 +607,14 @@
   line-height: 26px;
 }
 
-@media only screen and (max-with: 1234) {
+@media only screen and (max-with: 1264) {
   .hero {
-    width: 95%;
+    width: 45%;
+  }
+}
+@media only screen and (max-with: 1230) {
+  .hero {
+    width: 35%;
   }
 }
 .hero__body {

@@ -1,6 +1,5 @@
 .hero__body ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-between ;
     li{
         margin-left: 40px;
@@ -62,7 +61,6 @@ line-height: 26px;
   
     }
     .hero__design--right--ul--a--h2{
-        background-color: black;
         color: #FFF;
     margin-top: 100px;
     text-align: center;
@@ -128,6 +126,12 @@ line-height: 26px;
 
 @media only screen and (max-with:1326) {
     .hero__design{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-with:550) {
+    .hero__body{
         display: flex;
         flex-wrap: wrap;
     }
