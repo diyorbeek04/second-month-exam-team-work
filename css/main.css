@@ -1,3 +1,35 @@
+.hero {
+  height: 252px;
+  content: "";
+  background-image: url(/assets/images/header-footer/footer_head-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.hero-- {
+  text-align: center;
+  margin-left: 300px;
+}
+
+.hero__h1 {
+  width: 730px;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.hero__p {
+  margin-left: 100px;
+  height: 52px;
+  width: 500px;
+  color: #FFF;
+  font-family: Jost;
+}
+
 #header {
   width: 100%;
 }
