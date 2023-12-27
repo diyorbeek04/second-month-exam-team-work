@@ -358,76 +358,20 @@
   padding: 0 10px;
   width: 100%;
 }
-@media only screen and (max-width: 1450px) {
-  .container .container .main__companent {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .container .container .main__companent .main__companent--left {
-    padding-left: 100px;
-    padding-top: 20px;
-    width: 70%;
-  }
-  .container .container .main__companent .main__companent--right {
-    padding: 0;
-    margin: 0;
-    padding-left: 100px;
-    margin-top: 30px;
-  }
-  .container .container .main__companent .main__companent--right .input {
-    width: 573px;
-    height: 38px;
-    flex-shrink: 0;
-  }
-  .container .container .main__companent .main__companent--right button {
-    margin-left: 410px;
-  }
-}
-@media only screen and (max-width: 1130px) {
-  .container .main__companent {
-    justify-content: center;
-  }
-  .container .main__companent .main__companent--left {
-    margin: 0;
-  }
-  .container .main__companent .main__companent--right {
-    margin: 0;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 630px) {
-  .container .main__companent {
-    padding: 0;
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 830px) {
-  .container .main__companent {
-    margin: 0;
-    text-align: center;
-  }
-  .container .main__companent--right {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 660px) {
-  .container .input {
-    width: 280px;
-    height: 38px;
-  }
-}
-.container .main__companent.main__companent {
+.container .main__companent {
   margin-top: 70px;
   background-image: url(/assets/images/contact/img.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 550px;
+  display: flex;
 }
-.container .main__companent.main__companent .main__companent--left {
+.container .main__companent .main__companent--left {
   padding: 120px;
   width: 58%;
 }
-.container .main__companent.main__companent .main__companent--left h1 {
+.container .main__companent .main__companent--left h1 {
   color: #FFF;
   font-family: "Jost 500";
   font-size: 48px;
@@ -437,7 +381,7 @@
   /* 100% */
   margin-bottom: 40px;
 }
-.container .main__companent.main__companent .main__companent--left P {
+.container .main__companent .main__companent--left p {
   color: #FFF;
   font-family: "Jost 400";
   font-size: 20px;
@@ -446,10 +390,11 @@
   line-height: 26px;
   /* 162.5% */
 }
-.container .main__companent.main__companent .main__companent--right {
-  margin-left: 60px;
+.container .main__companent .main__companent--right {
+  margin-top: 100px;
+  margin-left: 130px;
 }
-.container .main__companent.main__companent .main__companent--right .form .input {
+.container .main__companent .main__companent--right .form .input {
   width: 380px;
   height: 38px;
   flex-shrink: 0;
@@ -467,20 +412,23 @@
   border: none;
   border-bottom: 1px solid #FFF;
 }
-.container .main__companent.main__companent .main__companent--right .form .textarea {
-  color: #FFF;
-  font-family: "Jost";
+.container .main__companent .main__companent--right .form textarea {
+  width: 380px;
+  height: 102px;
+  background-color: #E7816B;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  resize: none;
+  color: rgb(115, 117, 119);
+  font-family: Jost;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
   /* 173.333% */
-  margin-bottom: 40px;
-  border: none;
-  border-bottom: 1px solid #FFF;
-  background-color: #E7816B;
 }
-.container .main__companent.main__companent .main__companent--right .form button {
+.container .main__companent .main__companent--right .form button {
   width: 152px;
   height: 56px;
   flex-shrink: 0;
@@ -499,6 +447,98 @@
   margin-left: 230px;
 }
 
+@media only screen and (max-width: 1060px) {
+  .container .main__companent {
+    flex-direction: column;
+    height: auto;
+  }
+  .container .main__companent .main__companent--left {
+    margin: 0;
+    padding: 0;
+    width: 78%;
+    padding-left: 80px;
+    margin-top: 70px;
+  }
+  .container .main__companent .main__companent--left p {
+    color: #FFF;
+    font-family: "Jost 300";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 162.5% */
+  }
+  .container .main__companent .main__companent--right form {
+    margin: 0;
+    padding: 0;
+  }
+  .container .main__companent .main__companent--right form input {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+  }
+  .container .main__companent .main__companent--right form .button {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    border-radius: 25px;
+  }
+  .container .navbar {
+    flex-direction: column;
+  }
+  .container .logo {
+    margin-bottom: 30px;
+  }
+  .container .logo img {
+    width: 300px;
+    height: 200px;
+  }
+  .container .nav {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .container .nav ul {
+    flex-direction: column;
+  }
+  .container .nav ul li {
+    margin-top: 30px;
+    color: #FFF;
+    font-family: "Jost 200";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    /* 100% */
+    letter-spacing: 3px;
+  }
+  .container .hr {
+    width: 70%;
+    opacity: 0.3;
+    background: #FFF;
+  }
+  .container .footer__body--text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container .footer__body--text p {
+    margin-bottom: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost 400";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 162.5% */
+    opacity: 0.5;
+    margin-right: 390px;
+  }
+  .container .footer__body--text .logos {
+    margin-bottom: 30px;
+    margin-right: 400px;
+  }
+}
 #header {
   width: 100%;
 }

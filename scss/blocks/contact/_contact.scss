@@ -1,92 +1,22 @@
-
-.container{
+.container {
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 10px;
     width: 100%;
-    @media only screen and (max-width:1450px) {
-        .container {
-            .main__companent {
-                flex-direction: column;
-                justify-content: center;
-    
-                .main__companent--left {
-                    padding-left: 100px;
-                    padding-top: 20px;
-                    width: 70%;
-                }
-    
-                .main__companent--right {
-                    padding: 0;
-                    margin: 0;
-                    padding-left: 100px;
-                    margin-top: 30px;
-    
-                    .input {
-                        width: 573px;
-                        height: 38px;
-                        flex-shrink: 0;
-                    }
-    
-                    button {
-                        margin-left: 410px;
-                    }
-                }
-            }
-        }
-    }
-    
-    @media only screen and (max-width:1130px) {
-        .main__companent {
-            justify-content: center;
-    
-            .main__companent--left {
-                margin: 0;
-            }
-    
-            .main__companent--right {
-                margin: 0;
-                width: 100%;
-            }
-        }
-    }
-    
-    @media only screen and (max-width:630px) {
-        .main__companent {
-            padding: 0;
-            margin: 0;
-        }
-    }
-    
-    @media only screen and (max-width:830px) {
-        .main__companent {
-            margin: 0;
-            text-align: center;
-        }
-    
-        .main__companent--right {
-            text-align: center;
-        }
-    
-    }
-    
-    @media only screen and (max-width:660px) {
-        .input {
-            width: 280px;
-            height: 38px;
-        }
-    }
-    .main__companent.main__companent {
+
+    .main__companent {
         margin-top: 70px;
         background-image: url(/assets/images/contact/img.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-    
+        height: 550px;
+        display: flex;
+
         .main__companent--left {
             padding: 120px;
             width: 58%;
-    
+
             h1 {
                 color: #FFF;
                 font-family: "Jost 500";
@@ -97,8 +27,8 @@
                 /* 100% */
                 margin-bottom: 40px;
             }
-    
-            P {
+
+            p {
                 color: #FFF;
                 font-family: "Jost 400";
                 font-size: 20px;
@@ -108,10 +38,11 @@
                 /* 162.5% */
             }
         }
-    
+
         .main__companent--right {
-            margin-left: 60px;
-    
+            margin-top: 100px;
+            margin-left: 130px;
+
             .form {
                 .input {
                     width: 380px;
@@ -131,23 +62,24 @@
                     border: none;
                     border-bottom: 1px solid #FFF;
                 }
-    
-                .textarea {
-                    color: #FFF;
-                    font-family: "Jost";
+
+                textarea {
+                    width: 380px;
+                    height: 102px;
+                    background-color: #E7816B;
+                    margin-bottom: 30px;
+                    border: none;
+                    border-bottom: 1px solid #FFF;
+                    resize: none;
+                    color: rgb(115, 117, 119);
+                    font-family: Jost;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 500;
                     line-height: 26px;
                     /* 173.333% */
-                    margin-bottom: 40px;
-                    border: none;
-                    border-bottom: 1px solid #FFF;
-                    background-color: #E7816B;
-    
-    
                 }
-    
+
                 button {
                     width: 152px;
                     height: 56px;
@@ -169,6 +101,118 @@
             }
         }
     }
-    
-    
+}
+
+@media only screen and (max-width:1060px) {
+    .container {
+        .main__companent {
+            flex-direction: column;
+            height: auto;
+
+            .main__companent--left {
+                margin: 0;
+                padding: 0;
+                width: 78%;
+                padding-left: 80px;
+                margin-top: 70px;
+
+                p {
+                    color: #FFF;
+                    font-family: "Jost 300";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    /* 162.5% */
+                }
+            }
+
+            .main__companent--right {
+                form {
+                    margin: 0;
+                    padding: 0;
+
+                    input {
+                        margin: 0;
+                        padding: 0;
+                        border-bottom: none;
+                    }
+
+                    .button {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .container {
+        border-radius: 25px;
+
+        .navbar {
+            flex-direction: column;
+        }
+
+        .logo {
+            margin-bottom: 30px;
+
+            img {
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        .nav {
+            margin-bottom: 30px;
+            text-align: center;
+
+            ul {
+                flex-direction: column;
+
+                li {
+                    margin-top: 30px;
+                    color: #FFF;
+                    font-family: "Jost 200";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 14px;
+                    /* 100% */
+                    letter-spacing: 3px;
+                }
+            }
+        }
+
+        .hr {
+            width: 70%;
+            opacity: 0.3;
+            background: #FFF;
+        }
+
+        .footer__body--text {
+            flex-direction: column;
+            text-align: center;
+
+            p {
+                margin-bottom: 30px;
+                color: #FFF;
+                text-align: center;
+                font-family: "Jost 400";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+                /* 162.5% */
+                opacity: 0.5;
+                margin-right: 390px;
+            }
+
+            .logos {
+                margin-bottom: 30px;
+                margin-right: 400px;
+            }
+        }
+    }
 }
