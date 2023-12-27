@@ -1,14 +1,13 @@
 .main__cards-section {
   margin-top: 70px;
 }
-
-.container {
+.main__cards-section .container {
   max-width: 1160px;
   margin: 0 auto;
   padding: 0 10px;
   width: 100%;
 }
-.container .main__cards__1 {
+.main__cards-section .container .main__cards__1 {
   display: flex;
   justify-content: space-between;
   background-image: url(/assets/images/about/cards-img.png);
@@ -20,12 +19,12 @@
   margin-bottom: 160px;
   margin-top: 50px;
 }
-.container .main__cards__1 .main__cards__1--left {
+.main__cards-section .container .main__cards__1 .main__cards__1--left {
   width: 45%;
   padding: 90px;
   margin-top: 60px;
 }
-.container .main__cards__1 .main__cards__1--left h1 {
+.main__cards-section .container .main__cards__1 .main__cards__1--left h1 {
   margin: 0;
   padding: 0;
   color: #FFF;
@@ -34,10 +33,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: 48px;
-  /* 100% */
   margin-bottom: 20px;
 }
-.container .main__cards__1 .main__cards__1--left p {
+.main__cards-section .container .main__cards__1 .main__cards__1--left p {
   margin: 0;
   padding: 0;
   color: #FFF;
@@ -46,50 +44,46 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
 }
-.container .main__cards__2 {
+.main__cards-section .container .main__cards__2 {
   display: flex;
   background-image: url(/assets/images/about/backround.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container .main__cards__2 .main__cards__2--item {
+.main__cards-section .container .main__cards__2 .main__cards__2--item {
   padding: 80px;
   width: 43%;
   margin-top: 100px;
 }
-.container .main__cards__2 .main__cards__2--item h2 {
+.main__cards-section .container .main__cards__2 .main__cards__2--item h2 {
   color: #E7816B;
   font-family: "Jost";
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: 48px;
-  /* 120% */
   margin-bottom: 30px;
 }
-.container .main__cards__2 .main__cards__2--item P {
+.main__cards-section .container .main__cards__2 .main__cards__2--item p {
   color: #333136;
   font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
 }
-
-.main__cards__3 {
+.main__cards-section .container .main__cards__3 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 160px;
   text-align: center;
 }
-.main__cards__3 .main__cards__3--item {
+.main__cards-section .container .main__cards__3 .main__cards__3--item {
   margin: 0;
 }
-.main__cards__3 .main__cards__3--item p {
+.main__cards-section .container .main__cards__3 .main__cards__3--item p {
   margin-top: 38px;
   margin-bottom: 30px;
   color: #333136;
@@ -99,7 +93,7 @@
   font-weight: 500;
   line-height: 26px;
 }
-.main__cards__3 .main__cards__3--item button {
+.main__cards-section .container .main__cards__3 .main__cards__3--item button {
   color: #FFF;
   text-align: center;
   font-family: "Jost";
@@ -117,8 +111,7 @@
   border: none;
   outline: none;
 }
-
-.main__cards__4 {
+.main__cards-section .container .main__cards__4 {
   margin-top: 160px;
   display: flex;
   justify-content: space-between;
@@ -126,32 +119,29 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main__cards__4 .main__cards__4--item {
+.main__cards-section .container .main__cards__4 .main__cards__4--item {
   width: 53%;
   padding: 140px;
 }
-.main__cards__4 .main__cards__4--item h2 {
+.main__cards-section .container .main__cards__4 .main__cards__4--item h2 {
   color: #E7816B;
   font-family: "Jost";
   font-size: 42px;
   font-style: normal;
   font-weight: 500;
   line-height: 48px;
-  /* 120% */
   margin-bottom: 30px;
 }
-.main__cards__4 .main__cards__4--item p {
+.main__cards-section .container .main__cards__4 .main__cards__4--item p {
   color: #333136;
   font-family: "Jost 100";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
 }
-
 @media only screen and (max-width: 1060px) {
-  .container .main__cards__1 {
+  .main__cards-section .container .main__cards__1 {
     border-radius: 25px;
     margin-top: 100px;
     flex-direction: column-reverse;
@@ -160,33 +150,33 @@
     text-align: center;
     height: 700px;
   }
-  .container .main__cards__1 .main__cards__1--left {
+  .main__cards-section .container .main__cards__1 .main__cards__1--left {
     text-align: center;
     margin-top: 50px;
     padding: 0;
     width: 54%;
     margin-bottom: 100px;
   }
-  .container .main__cards__1 img {
+  .main__cards-section .container .main__cards__1 img {
     width: 100%;
     border-radius: 25px;
   }
-  .container .main__cards__2 {
+  .main__cards-section .container .main__cards__2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 25px;
   }
-  .container .main__cards__2 img {
+  .main__cards-section .container .main__cards__2 img {
     width: 100%;
     height: 600px;
     border-radius: 25px 25px 0px 0px;
   }
-  .container .main__cards__2 .main__cards__2--item {
+  .main__cards-section .container .main__cards__2 .main__cards__2--item {
     width: 80%;
   }
-  .container .main__cards__2 .main__cards__2--item h2 {
+  .main__cards-section .container .main__cards__2 .main__cards__2--item h2 {
     color: #E7816B;
     text-align: center;
     font-family: "Jost 400";
@@ -194,9 +184,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
-    /* 120% */
   }
-  .container .main__cards__2 .main__cards__2--item p {
+  .main__cards-section .container .main__cards__2 .main__cards__2--item p {
     color: #333136;
     text-align: center;
     font-family: "Jost 300";
@@ -204,30 +193,29 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
   }
-  .container .main__cards__3 {
+  .main__cards-section .container .main__cards__3 {
     display: block;
   }
-  .container .main__cards__3 .main__cards__3--item {
+  .main__cards-section .container .main__cards__3 .main__cards__3--item {
     margin-top: 80px;
   }
-  .container .main__cards__4 {
+  .main__cards-section .container .main__cards__4 {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 25px;
   }
-  .container .main__cards__4 img {
+  .main__cards-section .container .main__cards__4 img {
     width: 100%;
     height: 600px;
     border-radius: 25px 25px 0px 0px;
   }
-  .container .main__cards__4 .main__cards__4--item {
+  .main__cards-section .container .main__cards__4 .main__cards__4--item {
     width: 94%;
   }
-  .container .main__cards__4 .main__cards__4--item h2 {
+  .main__cards-section .container .main__cards__4 .main__cards__4--item h2 {
     color: #E7816B;
     text-align: center;
     font-family: "Jost 400";
@@ -235,9 +223,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
-    /* 120% */
   }
-  .container .main__cards__4 .main__cards__4--item p {
+  .main__cards-section .container .main__cards__4 .main__cards__4--item p {
     margin-top: 30px;
     color: #333136;
     text-align: center;
@@ -246,81 +233,80 @@
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
-    /* 162.5% */
   }
-  .footer__header {
+  .main__cards-section .footer__header {
     padding-top: 100px;
     bottom: 120px;
     display: block;
   }
-  .footer__header .container {
+  .main__cards-section .footer__header .container {
     width: 95%;
     margin: 0 auto;
   }
-  .footer__header .container .footer__head {
+  .main__cards-section .footer__header .container .footer__head {
     width: 100%;
     flex-direction: column;
     align-items: center;
     display: block;
   }
-  .footer__header .container .footer__head .footer__head--text {
+  .main__cards-section .footer__header .container .footer__head .footer__head--text {
     width: 100%;
     padding-top: 0px;
     padding-left: 0;
   }
-  .footer__header .container .footer__head .footer__head--text h1 {
+  .main__cards-section .footer__header .container .footer__head .footer__head--text h1 {
     width: 70%;
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
   }
-  .footer__header .container .footer__head .footer__head--text p {
+  .main__cards-section .footer__header .container .footer__head .footer__head--text p {
     width: 90%;
     margin: 5px auto;
     text-align: center;
     font-size: 14px;
   }
-  .footer__header .container .footer__head .footer__head--btn {
+  .main__cards-section .footer__header .container .footer__head .footer__head--btn {
     width: auto;
     margin: 5px auto;
     padding-bottom: 20px;
   }
-  .footer__header .container .footer__head .footer__head--btn a {
+  .main__cards-section .footer__header .container .footer__head .footer__head--btn a {
     padding: 12px 15px;
     font-size: 14px;
     text-align: center;
   }
-  .footer__body {
+  .main__cards-section .footer__body {
     width: 100%;
     background-color: #1D1C1E;
     margin: 0;
     padding: 0;
   }
-  .footer__body .container .navbar {
+  .main__cards-section .footer__body .container .navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 150px;
   }
-  .footer__body .container .navbar .logo {
+  .main__cards-section .footer__body .container .navbar .logo {
     width: 20%;
     display: block;
   }
-  .footer__body .container .navbar .logo img {
+  .main__cards-section .footer__body .container .navbar .logo img {
     width: 100%;
     height: auto;
   }
-  .footer__body .container .navbar .nav {
+  .main__cards-section .footer__body .container .navbar .nav {
     width: 30%;
   }
-  .footer__body .container .navbar .nav ul {
+  .main__cards-section .footer__body .container .navbar .nav ul {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .footer__body .container .navbar .nav ul li .a {
+  .main__cards-section .footer__body .container .navbar .nav ul li .a {
     color: #fff;
     font-family: "Jost 400";
     font-size: 14px;
@@ -329,13 +315,13 @@
     line-height: 14px;
     letter-spacing: 2px;
   }
-  .footer__body .container .navbar .nav ul .menu {
+  .main__cards-section .footer__body .container .navbar .nav ul .menu {
     display: none;
   }
-  .footer__body .container hr {
+  .main__cards-section .footer__body .container hr {
     border: 1px solid #fff;
   }
-  .footer__body .container .footer__body--text {
+  .main__cards-section .footer__body .container .footer__body--text {
     width: 100%;
     display: flex;
     align-items: end;
@@ -343,7 +329,7 @@
     padding-top: 31px;
     padding-bottom: 70px;
   }
-  .footer__body .container .footer__body--text p {
+  .main__cards-section .footer__body .container .footer__body--text p {
     color: #FFF;
     font-family: "Jost 700";
     font-size: 16px;
@@ -352,6 +338,7 @@
     line-height: 26px;
   }
 }
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
