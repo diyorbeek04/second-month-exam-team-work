@@ -106,7 +106,7 @@
 }
 
 .hero {
-  height: 252px;
+  height: 252%;
   content: "";
   background-image: url(/assets/images/header-footer/footer_head-bg.jpg);
   background-repeat: no-repeat;
@@ -231,8 +231,8 @@
   }
 }
 .hero {
-  width: 1111px;
-  height: 252px;
+  width: 1111%;
+  height: 252%;
   flex-shrink: 0;
   border-radius: 15px;
   background: #E7816B;
@@ -672,8 +672,8 @@
 }
 
 .hero {
-  width: 1111px;
-  height: 252px;
+  width: 1111%;
+  height: 252%;
   flex-shrink: 0;
   border-radius: 15px;
   background: #E7816B;
