@@ -88,6 +88,11 @@
   text-transform: uppercase;
 }
 
+@media only screen and (max-with: 1160) {
+  .container {
+    width: 95%;
+  }
+}
 .hero__body ul {
   display: flex;
   justify-content: space-between;

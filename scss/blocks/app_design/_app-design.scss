@@ -84,3 +84,8 @@ line-height: 26px;
     letter-spacing: 5px;
     text-transform: uppercase;
     }
+    @media only screen and (max-with:1160) {
+        .container{
+            width: 95%;
+        }
+    }
