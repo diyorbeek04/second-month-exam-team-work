@@ -1,0 +1,302 @@
+#section{
+    width: 100%;
+    padding-top: 100px;
+    .container{
+        .images{
+            width: 100%;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            .first{
+                width: 45%;
+                background-image: url(../../../assets/images/home/hero/web.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                // padding: 283px 138px 283px 137px;
+                padding-top: 283px;
+                padding-bottom: 283px;
+                .web{
+                    width: 100%;
+                    height: 100%;
+                    h2{
+                        width: 100%;
+                        color: #FFF;
+                        font-family: "Jost 500";
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 48px; /* 120% */
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                    p{
+                        width: 100%;
+                        color: #FFF;
+                        font-family: "Jost 500";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                }
+            }
+            .box{
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .second{
+                    width: 100%;
+                    background-image: url(../../../assets/images/home/hero/app.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    padding-top: 117px;
+                    padding-bottom: 117px;
+                    .app{
+                        width: 100%;
+                        height: 100%;
+                        h2{
+                            width: 100%;
+                            color: #FFF;
+                            font-family: "Jost 500";
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 2px;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            color: #FFF;
+                            font-family: "Jost 500";
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 5px;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                    }
+                }
+                .third{
+                    width: 100%;
+                    background-image: url(../../../assets/images/home/hero/graphik.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    padding-top: 117px;
+                    padding-bottom: 117px;
+                    .graphic{
+                        width: 100%;
+                        height: 100%;
+                        h2{
+                            width: 100%;
+                            color: #FFF;
+                            font-family: "Jost 500";
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 48px; /* 120% */
+                            letter-spacing: 2px;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            color: #FFF;
+                            font-family: "Jost 500";
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 5px;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 860px) {
+        .container{
+            width: 95%;
+            margin: 0px auto;
+            .images{
+                flex-direction: column;
+                gap: 20px;
+                .first{
+                    width: 90%;
+                    margin: 0px auto;
+                    padding-top: 107px;
+                    padding-bottom: 107px;
+                    border-radius: 15px;
+                }
+                .box{
+                    width: 90%;
+                    margin: 0px auto;
+                    .second{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 15px;
+                        padding-top: 107px;
+                        padding-bottom: 107px;  
+                    }
+                    .third{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 15px;
+                        padding-top: 107px;
+                        padding-bottom: 107px;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 540px) {
+        .container{
+            width: 95%;
+            margin: 0px auto;
+            .images{
+                flex-direction: column;
+                gap: 20px;
+                .first{
+                    width: 90%;
+                    margin: 0px auto;
+                    padding-top: 107px;
+                    padding-bottom: 107px;
+                    border-radius: 15px;
+                    .web{
+                        width: 100%;
+                        h2{
+                            width: 100%;
+                            font-size: 20px;
+                            line-height: 25px;
+                            padding-left: -120px;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .box{
+                    width: 90%;
+                    margin: 0px auto;
+                    .second{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 15px;
+                        .app{
+                            h2{
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 25px;
+                                padding-left: -120px;
+                            }
+                            p{
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                    .third{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 15px;
+                        .graphic{
+                            h2{
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 25px;
+                                padding-left: -120px;
+                            }
+                            p{
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .container{
+            width: 95%;
+            margin: 0px auto;
+            .images{
+                flex-direction: column;
+                gap: 20px;
+                .first{
+                    width: 90%;
+                    margin: 0px auto;
+                    padding-top: 87px;
+                    padding-bottom: 87px;
+                    border-radius: 10px;
+                    .web{
+                        width: 100%;
+                        h2{
+                            width: 100%;
+                            font-size: 20px;
+                            line-height: 25px;
+                            padding-left: -120px;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .box{
+                    width: 90%;
+                    margin: 0px auto;
+                    .second{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 10px;
+                        padding-top: 87px;
+                        padding-bottom: 87px;
+                        .app{
+                            h2{
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 25px;
+                                padding-left: -120px;
+                            }
+                            p{
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                    .third{
+                        width: 100%;
+                        margin: 0px auto;
+                        border-radius: 10px;
+                        padding-top: 87px;
+                        padding-bottom: 87px;
+                        .graphic{
+                            h2{
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 25px;
+                                padding-left: -120px;
+                            }
+                            p{
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

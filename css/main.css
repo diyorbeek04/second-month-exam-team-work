@@ -1,3 +1,584 @@
+#hero {
+  width: 100%;
+}
+#hero .container .hero {
+  width: 100%;
+  height: 640px;
+  background-image: url("../../../assets/images/home/section/bg-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 150px;
+}
+#hero .container .hero h1 {
+  width: 50%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  padding-left: 7%;
+  padding-top: 145px;
+}
+#hero .container .hero p {
+  color: #FFF;
+  font-family: "Jost 400";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 7%;
+  width: 50%;
+  padding-top: 11px;
+  padding-bottom: 40px;
+}
+#hero .container .hero a {
+  color: #333136;
+  font-family: "Jost 500";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 18px 25px;
+  border-radius: 8px;
+  background: #FFF;
+  margin-left: 7%;
+  margin-bottom: 150px;
+}
+@media only screen and (max-width: 850px) {
+  #hero .container .hero {
+    margin-top: 100px;
+  }
+  #hero .container .hero h1 {
+    font-size: 36px;
+  }
+  #hero .container .hero p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #hero .container .hero {
+    width: 100%;
+    height: 843px;
+    background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+  }
+  #hero .container .hero h1 {
+    width: 80%;
+    margin: 0px auto;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #hero .container .hero p {
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  #hero .container .hero a {
+    text-align: center;
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #hero .container .hero {
+    width: 100%;
+    height: 843px;
+    background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+  }
+  #hero .container .hero h1 {
+    width: 85%;
+    margin: 0px auto;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #hero .container .hero p {
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  #hero .container .hero a {
+    text-align: center;
+    margin-left: 35%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #hero .container .hero {
+    width: 100%;
+    height: 843px;
+    background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+  }
+  #hero .container .hero h1 {
+    width: 85%;
+    margin: 0px auto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+  }
+  #hero .container .hero p {
+    font-size: 12px;
+    width: 85%;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 14px;
+  }
+  #hero .container .hero a {
+    text-align: center;
+    margin-left: 35%;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+
+#section {
+  width: 100%;
+  padding-top: 100px;
+}
+#section .container .images {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+#section .container .images .first {
+  width: 45%;
+  background-image: url(../../../assets/images/home/hero/web.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 283px;
+  padding-bottom: 283px;
+}
+#section .container .images .first .web {
+  width: 100%;
+  height: 100%;
+}
+#section .container .images .first .web h2 {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+  letter-spacing: 2px;
+  text-align: center;
+}
+#section .container .images .first .web p {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#section .container .images .box {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#section .container .images .box .second {
+  width: 100%;
+  background-image: url(../../../assets/images/home/hero/app.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 117px;
+  padding-bottom: 117px;
+}
+#section .container .images .box .second .app {
+  width: 100%;
+  height: 100%;
+}
+#section .container .images .box .second .app h2 {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+  letter-spacing: 2px;
+  text-align: center;
+}
+#section .container .images .box .second .app p {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#section .container .images .box .third {
+  width: 100%;
+  background-image: url(../../../assets/images/home/hero/graphik.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 117px;
+  padding-bottom: 117px;
+}
+#section .container .images .box .third .graphic {
+  width: 100%;
+  height: 100%;
+}
+#section .container .images .box .third .graphic h2 {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+  letter-spacing: 2px;
+  text-align: center;
+}
+#section .container .images .box .third .graphic p {
+  width: 100%;
+  color: #FFF;
+  font-family: "Jost 500";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (max-width: 860px) {
+  #section .container {
+    width: 95%;
+    margin: 0px auto;
+  }
+  #section .container .images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #section .container .images .first {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 107px;
+    padding-bottom: 107px;
+    border-radius: 15px;
+  }
+  #section .container .images .box {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #section .container .images .box .second {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 15px;
+    padding-top: 107px;
+    padding-bottom: 107px;
+  }
+  #section .container .images .box .third {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 15px;
+    padding-top: 107px;
+    padding-bottom: 107px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #section .container {
+    width: 95%;
+    margin: 0px auto;
+  }
+  #section .container .images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #section .container .images .first {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 107px;
+    padding-bottom: 107px;
+    border-radius: 15px;
+  }
+  #section .container .images .first .web {
+    width: 100%;
+  }
+  #section .container .images .first .web h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .first .web p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #section .container .images .box {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #section .container .images .box .second {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 15px;
+  }
+  #section .container .images .box .second .app h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .box .second .app p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #section .container .images .box .third {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 15px;
+  }
+  #section .container .images .box .third .graphic h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .box .third .graphic p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #section .container {
+    width: 95%;
+    margin: 0px auto;
+  }
+  #section .container .images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #section .container .images .first {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 87px;
+    padding-bottom: 87px;
+    border-radius: 10px;
+  }
+  #section .container .images .first .web {
+    width: 100%;
+  }
+  #section .container .images .first .web h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .first .web p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #section .container .images .box {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #section .container .images .box .second {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
+  #section .container .images .box .second .app h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .box .second .app p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #section .container .images .box .third {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
+  #section .container .images .box .third .graphic h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: -120px;
+  }
+  #section .container .images .box .third .graphic p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+#boxs {
+  width: 100%;
+  padding-top: 150px;
+}
+#boxs .container .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#boxs .container .cards .card {
+  width: 30%;
+}
+#boxs .container .cards .card .card__image {
+  width: 60%;
+  height: auto;
+  margin: 0px auto;
+}
+#boxs .container .cards .card .card__image img {
+  width: 100%;
+  height: auto;
+}
+#boxs .container .cards .card .card__text {
+  width: 100%;
+}
+#boxs .container .cards .card .card__text h3 {
+  width: 100%;
+  color: #333136;
+  text-align: center;
+  font-family: "Jost 500";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  padding-top: 40px;
+}
+#boxs .container .cards .card .card__text p {
+  width: 100%;
+  color: #333136;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  #boxs .container .cards {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #boxs .container .cards .card {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #boxs .container .cards .card .card__image {
+    width: 40%;
+  }
+  #boxs .container .cards .card .card__image img {
+    width: 90%;
+  }
+  #boxs .container .cards .card .card__text {
+    width: 55%;
+  }
+  #boxs .container .cards .card .card__text h3 {
+    padding-top: 0;
+  }
+  #boxs .container .cards .card .card__text p {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 614px) {
+  #boxs .container .cards {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #boxs .container .cards .card {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #boxs .container .cards .card .card__image {
+    width: 40%;
+  }
+  #boxs .container .cards .card .card__image img {
+    width: 90%;
+  }
+  #boxs .container .cards .card .card__text {
+    width: 55%;
+  }
+  #boxs .container .cards .card .card__text h3 {
+    padding-top: 0;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  #boxs .container .cards .card .card__text p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 484px) {
+  #boxs .container .cards {
+    width: 100%;
+    flex-direction: wrap;
+    gap: 30px;
+  }
+  #boxs .container .cards .card {
+    width: 90%;
+    flex-direction: column;
+  }
+  #boxs .container .cards .card .card__image {
+    width: 60%;
+  }
+  #boxs .container .cards .card .card__image img {
+    width: 100%;
+  }
+  #boxs .container .cards .card .card__text {
+    width: 90%;
+  }
+  #boxs .container .cards .card .card__text h3 {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  #boxs .container .cards .card .card__text p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 #header {
   width: 100%;
 }
