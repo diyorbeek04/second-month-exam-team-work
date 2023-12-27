@@ -1,6 +1,7 @@
 .card__ul{
-    display: flex;
-    justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 .card{
     margin-top: 100px;
@@ -12,6 +13,10 @@ background-repeat: no-repeat;
 background-size: cover;
 width: 540px;
 height: 348px;
+
+}
+@media only screen and (max-width: 760px) {
+    
 }
 .card__ul--li--h2{
     color: #FFF;
