@@ -1,11 +1,13 @@
-.main__cards-section{
+.main__cards-section {
     margin-top: 70px;
-    .container{
+
+    .container {
         max-width: 1160px;
         margin: 0 auto;
         padding: 0 10px;
         width: 100%;
-        .main__cards__1{
+
+        .main__cards__1 {
             display: flex;
             justify-content: space-between;
             background-image: url(/assets/images/about/cards-img.png);
@@ -16,11 +18,13 @@
             height: 500px;
             margin-bottom: 160px;
             margin-top: 50px;
+
             .main__cards__1--left {
                 width: 45%;
                 padding: 90px;
                 margin-top: 60px;
-                h1{
+
+                h1 {
                     margin: 0;
                     padding: 0;
                     color: #FFF;
@@ -31,7 +35,8 @@
                     line-height: 48px;
                     margin-bottom: 20px;
                 }
-                p{
+
+                p {
                     margin: 0;
                     padding: 0;
                     color: #FFF;
@@ -43,16 +48,19 @@
                 }
             }
         }
-        .main__cards__2{
+
+        .main__cards__2 {
             display: flex;
             background-image: url(/assets/images/about/backround.png);
             background-repeat: no-repeat;
             background-size: cover;
+
             .main__cards__2--item {
                 padding: 80px;
                 width: 43%;
                 margin-top: 100px;
-                h2{
+
+                h2 {
                     color: #E7816B;
                     font-family: "Jost";
                     font-size: 40px;
@@ -61,7 +69,8 @@
                     line-height: 48px;
                     margin-bottom: 30px;
                 }
-                p{
+
+                p {
                     color: #333136;
                     font-family: "Jost";
                     font-size: 16px;
@@ -71,15 +80,18 @@
                 }
             }
         }
-        .main__cards__3{
+
+        .main__cards__3 {
             display: flex;
             align-items: center;
             justify-content: space-around;
             margin-top: 160px;
             text-align: center;
+
             .main__cards__3--item {
                 margin: 0;
-                p{
+
+                p {
                     margin-top: 38px;
                     margin-bottom: 30px;
                     color: #333136;
@@ -89,7 +101,8 @@
                     font-weight: 500;
                     line-height: 26px;
                 }
-                button{
+
+                button {
                     color: #FFF;
                     text-align: center;
                     font-family: "Jost";
@@ -109,17 +122,20 @@
                 }
             }
         }
-        .main__cards__4{
+
+        .main__cards__4 {
             margin-top: 160px;
             display: flex;
             justify-content: space-between;
             background-image: url(/assets/images/about/backround.png);
             background-repeat: no-repeat;
             background-size: cover;
-            .main__cards__4--item{
+
+            .main__cards__4--item {
                 width: 53%;
                 padding: 140px;
-                h2{
+
+                h2 {
                     color: #E7816B;
                     font-family: "Jost";
                     font-size: 42px;
@@ -128,7 +144,8 @@
                     line-height: 48px;
                     margin-bottom: 30px;
                 }
-                p{
+
+                p {
                     color: #333136;
                     font-family: "Jost 100";
                     font-size: 16px;
@@ -139,6 +156,7 @@
             }
         }
     }
+
     @media only screen and (max-width:1060px) {
         .container {
             .main__cards__1 {
@@ -149,32 +167,38 @@
                 justify-content: center;
                 text-align: center;
                 height: 700px;
-                .main__cards__1--left{
+
+                .main__cards__1--left {
                     text-align: center;
                     margin-top: 50px;
                     padding: 0;
                     width: 54%;
                     margin-bottom: 100px;
                 }
+
                 img {
                     width: 100%;
                     border-radius: 25px;
                 }
             }
-            .main__cards__2{
+
+            .main__cards__2 {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
                 border-radius: 25px;
-                img{
+
+                img {
                     width: 100%;
                     height: 600px;
                     border-radius: 25px 25px 0px 0px;
                 }
-                .main__cards__2--item{
+
+                .main__cards__2--item {
                     width: 80%;
-                    h2{
+
+                    h2 {
                         color: #E7816B;
                         text-align: center;
                         font-family: "Jost 400";
@@ -183,7 +207,8 @@
                         font-weight: 600;
                         line-height: 48px;
                     }
-                    p{
+
+                    p {
                         color: #333136;
                         text-align: center;
                         font-family: "Jost 300";
@@ -194,25 +219,31 @@
                     }
                 }
             }
-            .main__cards__3{
+
+            .main__cards__3 {
                 display: block;
-                .main__cards__3--item{
+                text-align: center;
+                .main__cards__3--item {
                     margin-top: 80px;
                 }
             }
-            .main__cards__4{
+
+            .main__cards__4 {
                 flex-direction: column-reverse;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
                 border-radius: 25px;
-                img{
+
+                img {
                     width: 100%;
                     height: 600px;
                     border-radius: 25px 25px 0px 0px;
                 }
-                .main__cards__4--item{
+
+                .main__cards__4--item {
                     width: 94%;
+
                     h2 {
                         color: #E7816B;
                         text-align: center;
@@ -222,7 +253,8 @@
                         font-weight: 600;
                         line-height: 48px;
                     }
-                    p{
+
+                    p {
                         margin-top: 30px;
                         color: #333136;
                         text-align: center;
@@ -235,34 +267,34 @@
                 }
             }
         }
-    
+
         .footer__header {
             padding-top: 100px;
             bottom: 120px;
             display: block;
-    
+
             .container {
                 width: 95%;
                 margin: 0 auto;
-    
+
                 .footer__head {
                     width: 100%;
                     flex-direction: column;
                     align-items: center;
                     display: block;
-    
+
                     .footer__head--text {
                         width: 100%;
                         padding-top: 0px;
                         padding-left: 0;
-    
+
                         h1 {
                             width: 70%;
                             margin: 0 auto;
                             text-align: center;
                             font-size: 30px;
                         }
-    
+
                         p {
                             width: 90%;
                             margin: 5px auto;
@@ -270,12 +302,12 @@
                             font-size: 14px;
                         }
                     }
-    
+
                     .footer__head--btn {
                         width: auto;
                         margin: 5px auto;
                         padding-bottom: 20px;
-    
+
                         a {
                             padding: 12px 15px;
                             font-size: 14px;
@@ -285,12 +317,13 @@
                 }
             }
         }
-    
+
         .footer__body {
             width: 100%;
             background-color: #1D1C1E;
             margin: 0;
             padding: 0;
+
             .container {
                 .navbar {
                     width: 100%;
@@ -298,24 +331,26 @@
                     align-items: center;
                     justify-content: space-between;
                     padding-top: 150px;
+
                     .logo {
                         width: 20%;
                         display: block;
+
                         img {
                             width: 100%;
                             height: auto;
                         }
                     }
-    
+
                     .nav {
                         width: 30%;
-    
+
                         ul {
                             width: 100%;
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
-    
+
                             li {
                                 .a {
                                     color: #fff;
@@ -327,18 +362,18 @@
                                     letter-spacing: 2px;
                                 }
                             }
-    
+
                             .menu {
                                 display: none;
                             }
                         }
                     }
                 }
-    
+
                 hr {
                     border: 1px solid #fff;
                 }
-    
+
                 .footer__body--text {
                     width: 100%;
                     display: flex;
@@ -346,7 +381,7 @@
                     justify-content: space-between;
                     padding-top: 31px;
                     padding-bottom: 70px;
-    
+
                     p {
                         color: #FFF;
                         font-family: "Jost 700";
@@ -359,5 +394,4 @@
             }
         }
     }
-    
 }
