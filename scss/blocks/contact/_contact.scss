@@ -147,14 +147,11 @@
 
         }
     }
-
     .container {
         border-radius: 25px;
-
         .navbar {
             flex-direction: column;
         }
-
         .logo {
             margin-bottom: 30px;
 
@@ -163,14 +160,11 @@
                 height: 200px;
             }
         }
-
         .nav {
             margin-bottom: 30px;
             text-align: center;
-
             ul {
                 flex-direction: column;
-
                 li {
                     margin-top: 30px;
                     color: #FFF;
@@ -184,17 +178,14 @@
                 }
             }
         }
-
         .hr {
             width: 70%;
             opacity: 0.3;
             background: #FFF;
         }
-
         .footer__body--text {
             flex-direction: column;
             text-align: center;
-
             p {
                 margin-bottom: 30px;
                 color: #FFF;
@@ -208,7 +199,6 @@
                 opacity: 0.5;
                 margin-right: 390px;
             }
-
             .logos {
                 margin-bottom: 30px;
                 margin-right: 400px;
