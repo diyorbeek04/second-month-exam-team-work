@@ -1,0 +1,95 @@
+.hero{
+    width: 1111%;
+    height: 252%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #E7816B;
+    
+    
+    align-items: center;
+margin-left: 100px;
+    margin-top: 100px;
+   
+    h3{
+        color: #FFF;
+text-align: center;
+font-family: Jost;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+    }
+    p{
+        width: 400px;
+        color: #FFF;
+        margin-left: 350px;
+text-align: center;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+    }
+}
+
+@media only screen and (max-with:1264) {
+    .hero{
+        width: 45%;
+    }
+}
+@media only screen and (max-with:1230) {
+    .hero{
+        width: 35%;
+    }
+}
+    
+
+.hero__body{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+background: #FDF3F0;
+    .ul{
+        display: flex;
+
+        justify-content: space-between;
+    }
+}
+.hero__design{
+    .ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .li{
+    content: "";
+    background-image: url(/assets/images/graphik-design/card--2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 348px;
+    }
+    .h2{
+        color: #FFF;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    letter-spacing: 2px;
+    }
+    .h5{
+        color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    }
+}

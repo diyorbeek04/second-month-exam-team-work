@@ -470,6 +470,34 @@
   color: #333136;
   text-align: center;
   font-family: "Jost 500";
+.cards__ul--li--img {
+  width: 350px;
+  height: 320px;
+  flex-shrink: 0;
+}
+
+.cards__ul--li {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+  background: #FDF3F0;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.cards__ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__ul--li--h4 {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 286px;
+  color: #E7816B;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Jost;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -479,6 +507,11 @@
 }
 #boxs .container .cards .card .card__text p {
   width: 100%;
+}
+
+.cards__ul--li--p {
+  margin-left: 30px;
+  width: 286px;
   color: #333136;
   text-align: center;
   font-family: Jost;
@@ -577,6 +610,280 @@
     font-size: 14px;
     line-height: 18px;
   }
+}
+
+.card__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: 100px;
+}
+
+.card__ul--li {
+  content: "";
+  background-image: url(/assets/images/web-design/card--2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 540px;
+  height: 348px;
+}
+
+.card__ul--li--h2 {
+  color: #FFF;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+.card__ul--li--p {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-with: 1160) {
+  .container {
+    width: 95%;
+  }
+}
+.hero__body ul {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__body ul li {
+  margin-left: 40px;
+  border-radius: 15px;
+  background: #FDF3F0;
+  width: 350px;
+  height: 420px;
+}
+
+.hero {
+  height: 252%;
+  content: "";
+  background-image: url(/assets/images/header-footer/footer_head-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+.hero h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.hero p {
+  width: 300px;
+  color: #FFF;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 30px;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hero__body {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+.hero__design {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero__design .hero__design--right {
+  content: "";
+  background-image: url(/assets/images/graphik-design/card--2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 641px;
+  height: 408px;
+}
+.hero__design .hero__design--right--ul--a--h2 {
+  color: #FFF;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+.hero__design .hero__design--right--ul--h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.hero__design .hero__design--left {
+  content: "";
+  background-image: url(/assets/images/graphik-design/card--2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 641px;
+  height: 408px;
+}
+.hero__design .hero__design--left--a--ul--h2 {
+  color: #FFF;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+.hero__design .hero__design--ul--h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-with: 1160) {
+  .container {
+    width: 95%;
+  }
+}
+@media only screen and (max-with: 1258) {
+  .hero {
+    width: 45%;
+  }
+}
+@media only screen and (max-with: 1326) {
+  .hero__design {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-with: 550) {
+  .hero__body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.hero {
+  width: 1111%;
+  height: 252%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #E7816B;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.hero h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.hero p {
+  width: 400px;
+  color: #FFF;
+  margin-left: 350px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media only screen and (max-with: 1264) {
+  .hero {
+    width: 45%;
+  }
+}
+@media only screen and (max-with: 1230) {
+  .hero {
+    width: 35%;
+  }
+}
+.hero__body {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  background: #FDF3F0;
+}
+.hero__body .ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__design .ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero__design .li {
+  content: "";
+  background-image: url(/assets/images/graphik-design/card--2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 540px;
+  height: 348px;
+}
+.hero__design .h2 {
+  color: #FFF;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+.hero__design .h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 #header {
@@ -929,6 +1236,95 @@
   #footer .footer__body .container .footer__body--text .logos img {
     width: 100%;
   }
+}
+
+.hero {
+  width: 1111%;
+  height: 252%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #E7816B;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.hero h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.hero p {
+  width: 400px;
+  color: #FFF;
+  margin-left: 350px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media only screen and (max-with: 1264) {
+  .hero {
+    width: 45%;
+  }
+}
+@media only screen and (max-with: 1230) {
+  .hero {
+    width: 35%;
+  }
+}
+.hero__body {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  background: #FDF3F0;
+}
+.hero__body .ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__design .ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero__design .li {
+  content: "";
+  background-image: url(/assets/images/graphik-design/card--2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 540px;
+  height: 348px;
+}
+.hero__design .h2 {
+  color: #FFF;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+.hero__design .h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 @font-face {
