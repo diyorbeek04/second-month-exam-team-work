@@ -1,7 +1,7 @@
 #hero{
     width: 100%;
     .container{
-        .hero{
+        .home__hero{
             width: 100%;
             height: 640px;
             background-image: url("../../../assets/images/home/section/bg-section.png");
@@ -9,7 +9,7 @@
             background-repeat: no-repeat;
             background-position: center;
             margin-top: 150px;
-
+            border-radius: 15px;
             h1{
                 width: 50%;
                 color: #FFF;
@@ -52,7 +52,7 @@
     }
     @media only screen and (max-width: 850px) {
         .container{
-            .hero{
+            .home__hero{
                 margin-top: 100px;
                 h1{
                     font-size: 36px;
@@ -65,7 +65,7 @@
     }
     @media only screen and (max-width: 768px) {
         .container{
-            .hero{
+            .home__hero{
                 width: 100%;
                 height: 843px;
                 background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
@@ -95,7 +95,7 @@
     }
     @media only screen and (max-width: 600px) {
         .container{
-            .hero{
+            .home__hero{
                 width: 100%;
                 height: 843px;
                 background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
@@ -125,7 +125,7 @@
     }
     @media only screen and (max-width: 450px) {
         .container{
-            .hero{
+            .home__hero{
                 width: 100%;
                 height: 843px;
                 background-image: url(../../../assets/images/home/section/bg-section\ tablet.png);
